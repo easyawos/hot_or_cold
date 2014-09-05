@@ -34,7 +34,9 @@ var user_input = function () {
 	var user_number = $(".user_input").val();
 
 	if (isNaN(user_number) || user_number>100 || user_number<0 || user_number ==="") {
-		alert("wrong input");
+		
+		$(".feedback p").html("Please an integer number between 0 and 100");
+
 		
 	}	
 
@@ -44,18 +46,18 @@ var user_input = function () {
 			var user_value = (Number/$computer) * 100;
 
 				if (user_value === 100) {
-					alert("You win");
+					$(".feedback p").html("You Win")
 
 				} 
 					else if (user_value > previous_num) {
-						alert("Hotter");
+						$(".feedback p").html("Hotter")
 			 	 	}	else {
-			 	 			alert("Colder");
+			 	 			$(".feedback p").html("Colder")
 			 	 		}
 			 	 		previous_num = user_value; 
 							
 		}
-		
+
 }
 
 
