@@ -1,5 +1,7 @@
 
 /*alert("its working");*/
+/*var Number=parseInt(user_number);*/
+
 
 
 /*****Reload button********/
@@ -34,32 +36,26 @@ var user_input = function () {
 	var user_number = $(".user_input").val();
 
 	if (isNaN(user_number) || user_number>100 || user_number<0 || user_number ==="") {
-		
 		$(".feedback p").html("Please an integer number between 0 and 100");
-
-		
 	}	
 
-	else {
-			var Number=parseInt(user_number);
+		else {
+			var user_value = user_number;
+			var diffNew = Math.abs($computer - user_value);
+			var diffOld = Math.abs($computer - previous_num)
 
-			var user_value = (Number/$computer) * 100;
-
-				if (user_value === 100) {
-					$(".feedback p").html("You Win")
-
+				if (user_value == $computer) {	
+					$(".feedback p").html("You Win!!!")
 				} 
-					else if (user_value > previous_num) {
+					else if (diffOld > diffNew) {
 						$(".feedback p").html("Hotter")
-			 	 	}	else {
-			 	 			$(".feedback p").html("Colder")
-			 	 		}
-			 	 		previous_num = user_value; 
-							
+
+		 	 		}	else {
+		 	 				$(".feedback p").html("Colder")
+		 	 			}
+		previous_num = user_value; 
 		}
-
 }
-
 
 
 
