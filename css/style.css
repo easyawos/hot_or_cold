@@ -21,11 +21,12 @@ h2	{
 /************************************
 Div Container for menu
 ***********************#3e5b70**************/
+
 #guess_container {
-	margin: 25px auto;
-	padding: 20px;
+	margin: 5% auto;
+	padding: 5px;
 	width: 30%;
-	height: 150px;
+	height: 40%;
 	border: 2px solid #1d2e3a;
 	border-radius: 10px;
 	background: white;
@@ -35,19 +36,30 @@ Div Container for menu
 	color: blue;
 }
 
+
+
+#feedback {
+	
+	margin: 1% auto;
+	padding: 20px;
+	width: 30%;
+	height: 40%;
+	border: 2px solid #1d2e3a;
+	border-radius: 5px;
+	background: white;
+}
+
+
+
 /*****Text field********/
 
-#response {
-  background: #f5f5f5;
-  border: 1px solid #e5e5e5;
-  border-radius: 2px;
-  height: 50px;
-  color: red;
- }
+#guess_container .user_input{
+
+  width: 40%;
+}
 
 
 /*****form elements********/
-
 
 #new_game {
 	width: 75px;
