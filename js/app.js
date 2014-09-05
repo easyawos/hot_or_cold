@@ -35,7 +35,7 @@ var previous_num= 0;
 var user_input = function () {
 	var user_number = $(".user_input").val();
 
-	if (isNaN(user_number) || user_number>100 || user_number<=0 || user_number ==="") {
+	if (isNaN(user_number) || user_number>100 || user_number<0 || user_number ==="") {
 		$(".feedback p").html("Enter an integer number between 0 and 100");
 	}	
 
