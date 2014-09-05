@@ -2,13 +2,14 @@
 
 /*alert("its working");*/
 
-var $computer = Math.round(Math.random() * 100);
+var $computer = Math.floor(Math.random() * 100);
+
+	console.log($computer);
 
 $(".submitbtn").click(function(event){
 		event.preventDefault;
 		user_input();
-		// var User_number = $(".user_input").val();
-		
+			
 });
 
 var previous_num= 0;
@@ -26,7 +27,7 @@ var user_input = function () {
 
 			var user_value = (Number/$computer) * 100;
 
-				if (user_value == 100) {
+				if (user_value === 100) {
 					alert("You win");
 
 				} 
