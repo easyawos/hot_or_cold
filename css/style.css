@@ -4,10 +4,11 @@ General
 *************************************/
 
 body {
-  background: url(../img/hot-and-cold.jpg) no-repeat;
-  font-family: sans-serif;
+  background: url('../img/images.jpg');
+  background-size: contain;
+   font-family: sans-serif;
   font-size: 45px;
-  color: white;
+  color: green;
   text-align: center;
 }
 
@@ -19,7 +20,7 @@ h1 {
 
 h2	{
 	 font-size: 25px;
-	 color: white;
+	 color: green;
 	 font-style: oblique;
 }
 

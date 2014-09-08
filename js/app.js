@@ -1,9 +1,4 @@
 
-/*alert("its working");*/
-/*var Number=parseInt(user_number);*/
-
-
-
 /*****Reload button********/
 
 $('#new_game').click(function() {
