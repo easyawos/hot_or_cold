@@ -71,6 +71,7 @@ Div Container for menu
 	font-weight: normal;
 }
 
+
 /*****Text field********/
 
 #guess_container .user_input{
@@ -126,4 +127,16 @@ Progress bar
     border-radius: 3px; 
     font-size: 0.5em;
     font-style: italic;
+}
+
+
+/************************************
+FOOTER
+*************************************/
+
+footer {
+	clear: both;
+	font-size: 0.3em;
+	text-align: center;
+	color: #ccc;
 }
