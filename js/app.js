@@ -21,9 +21,6 @@ var zikiguess= {
 	},
 
 	user_input: function(){
-		console.log(zikiguess.computer);
-		console.log(zikiguess.previous_num);
-
 		var user_number = $(".user_input").val();
 		if (isNaN(user_number) || user_number>100 || user_number<0 || user_number ==="") {
 			$(".feedback p").html("Enter an integer number between 0 and 100");
@@ -53,7 +50,7 @@ var zikiguess= {
 				}
 
 			var progressBarWidth =p_bar*$(".container").width()/ 100;  
-		    $(".progressbar").width(progressBarWidth).html(p_bar + "% ");			
+		    $(".progressbar").width(progressBarWidth).html(p_bar + "% ");	
 	},
 	
 };
