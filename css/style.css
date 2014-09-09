@@ -8,7 +8,7 @@ body {
   background-size: contain;
    font-family: sans-serif;
   font-size: 45px;
-  color: green;
+  color: blue;
   text-align: center;
 }
 
@@ -20,7 +20,7 @@ h1 {
 
 h2	{
 	 font-size: 25px;
-	 color: green;
+	 color: blue;
 	 font-style: oblique;
 }
 
@@ -108,7 +108,7 @@ Progress bar
 *************************************/
 
 .container{
-    width: 340px;
+    width: 35%;
     border: 1px solid #ddd;
     border-radius: 5px; 
     overflow: hidden;
