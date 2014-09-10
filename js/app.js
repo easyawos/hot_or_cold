@@ -31,13 +31,16 @@ var zikiguess= {
 				var diffNew = Math.abs(zikiguess.computer - user_number);
 
 					if (user_number == zikiguess.computer) {	
-						$(".feedback p").html("You Win!!!")
+						$(".feedback p").html("You Win!!!");
+						$(".user_input").val("");
 					} 
 						else if (diffOld > diffNew) {
-							$(".feedback p").html("Hotter")
+							$(".feedback p").html("Hotter");
+							$(".user_input").val("");
 
 			 	 		}	else if (diffOld < diffNew) {
-			 	 				$(".feedback p").html("Colder")
+			 	 				$(".feedback p").html("Colder");
+								$(".user_input").val("");
 			 	 			}
 	 	 		zikiguess.previous_num = user_number; 
 			}
