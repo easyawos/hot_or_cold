@@ -16,7 +16,7 @@ var zikiguess= {
 	},
 
 	submit_guess: function(){
-		event.preventDefault;
+		event.preventDefault();
 		zikiguess.user_input();
 	},
 
