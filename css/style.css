@@ -4,14 +4,19 @@ General
 *************************************/
 
 body {
-  background: url('../img/images.jpg');
-  background-size: contain;
+/*  background: url('../img/images.jpg');
+*/  background-size: contain;
    font-family: sans-serif;
   font-size: 45px;
   color: blue;
   text-align: center;
 }
 
+#imgguess {
+	text-align: center;
+	margin-top: 0;
+	width: 100%;
+}
 
 h1 {
 	font-style: oblique;
@@ -35,8 +40,8 @@ Div Container for menu
 ***********************#3e5b70**************/
 
 #guess_container {
-	margin: 5% auto;
-	padding: 5px;
+	margin: 1% auto;
+	padding: 1px;
 	width: 30%;
 	height: 40%;
 	border: 2px solid #1d2e3a;
