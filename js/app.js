@@ -8,7 +8,6 @@ var zikiguess= {
 		zikiguess.previous_num= 0;
 		$('#new_game').click(zikiguess.newGame);
 		$(".submitbtn").click(zikiguess.submit_guess);
-		console.log(zikiguess.computer);
 	},
 	
 	newGame: function(){
